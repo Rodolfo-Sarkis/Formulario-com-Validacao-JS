@@ -1,0 +1,80 @@
+body {
+    background-image: url(images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    margin: 0;
+    height: 100vh;
+    font-family: "Roboto", serif;
+}
+
+nav {
+    display: flex;
+}
+
+.texto {
+    width: 300px;
+    height: 111px;
+    margin-top: 330px;
+    margin-left: 400px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.titulo {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px 100px;
+    margin-left: 300px;
+    margin-top: 180px;
+    border: 1px 0px 0px 0px;
+}
+
+.formulario {
+    padding-top: 200px;
+    padding: 10px;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1
+}
+
+.mensagem {
+    height: 100px;
+}
+
+a {
+    background-color: #3CCC87;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+}
+
+.mensagem-erro {
+    margin-top: 5px;
+    display: block;
+}
